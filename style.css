@@ -16,6 +16,7 @@
 }
 body {
     font-family: sans-serif;
+   
 }
 
 
@@ -52,15 +53,23 @@ body {
     font-weight: 500;
     font-size: 16px;
     text-transform: uppercase;
+    transition: all 1s ease;
+}
+
+.header-nav a:hover {
+    color: var(--primary-c);
+    transform: scale(1.1);
+    transition: all 1s ease;
 }
 
 
 
 .main {
+    position: relative;
     background: linear-gradient(287.15deg, #EFAFBC 0%, #C3E3FA 100%);
      width: 100%;
-     height: 100vh;
    border-radius: 40px;
+  
 }
 
 
@@ -89,12 +98,12 @@ body {
 .span {
     font-weight: 900;
     font-size:65px ;
-    color: var(--qora;)
+    color: var(--qora);
 }
 
 .text p {
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 24px;
     color: var(--a-color);
     
@@ -115,10 +124,162 @@ body {
     color:var(--primary-c);
     border: none;
     text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all 1s ease;
+    cursor: pointer;
 }
+
+.text button:hover {
+    transition: all 1s ease;
+    transform: scale(1.1);
+    box-shadow: var(--primary-c) 0px 0px 10px;
+    cursor: pointer;
+
+}
+
+
 .image {
     display: flex;
 align-items: center;
+gap: 36px;
+}
 
-gap: 20px;
+.image img:hover {
+    transform: scale(1.1);
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.ds {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 80px;
+}
+
+.jaket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+.jaket-1 {
+    margin-right: -100px;
+
+}
+
+.dot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.dot-2 {
+    position: absolute;
+    right: 630px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--primary-c);
+    margin-left: 10px;
+    border: solid 2px var(--oq);
+}
+
+.dot-3 {
+    position: absolute;
+    right: 315px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--qora);
+    margin-left: 10px;
+    border: solid 2px var(--oq);
+}
+
+
+.dot-4 {
+    position: absolute;
+    right: 120px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-left: 10px;
+    border: solid 2px var(--oq);
+}
+
+
+.botom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    margin-top: 50px;
+
+}
+
+.part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 280px;
+    height: 110px;
+    background-color: var(--oq);
+    border-radius: 20px;
+    transition: all 1s ease;
+
+}
+.part:hover {
+    transform: scale(1.1);
+    transition: all 1s ease;
+    box-shadow: var(--primary-c) 0px 0px 10px;
+    cursor: pointer;
+}
+
+.part img {
+    width: 118px;
+    height: 118px;
+    margin-bottom: 60px;
+}
+
+
+.tt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.tt p {
+    color: var(--a-color);
+}
+
+.tt b {
+    color: var(--qora);
+    font-weight: 600;
+    font-size: 18px;
+}
+.j-2 {
+    transition: all 1s ease;
+}
+
+.j-2:hover {
+    transform: scale(1.1);
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.vektor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  z-index: -10;
+  cursor: pointer;
 }
