@@ -3,6 +3,7 @@
     --oq : white;
     --qora : black;
    --a-color :rgba(120, 120, 120, 1);
+   --primary-c :rgba(121, 188, 207, 1);
 
 }
 
@@ -62,3 +63,62 @@ body {
    border-radius: 40px;
 }
 
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 80px;
+}
+
+.text h2 {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    color: var(--qora);
+    text-transform: uppercase;
+}
+.span {
+    font-weight: 900;
+    font-size:65px ;
+    color: var(--qora;)
+}
+
+.text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--a-color);
+    
+}
+.text b {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--oq);
+    text-transform: uppercase;
+}
+
+.text button {
+  width: 230px;
+  height: 50px;
+  border-radius: 20px;
+    background-color: var(--oq);
+    color:var(--primary-c);
+    border: none;
+    text-transform: uppercase;
+}
+.image {
+    display: flex;
+align-items: center;
+
+gap: 20px;
+}
